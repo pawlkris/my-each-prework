@@ -1,6 +1,6 @@
 def my_each(array) # put argument(s) here
   i = 0
-  while i < array.length
+  while i <= array.length
     yield
     i = i + 1
   end
@@ -8,5 +8,6 @@ def my_each(array) # put argument(s) here
   my_method do
     puts array[i]
   end
-  array
+  
+  return array
 end

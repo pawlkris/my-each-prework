@@ -8,6 +8,6 @@ def my_each(array) # put argument(s) here
   my_method do
     puts array[i]
   end
-  
+
   return array
 end
